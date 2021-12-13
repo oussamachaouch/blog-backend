@@ -10,6 +10,18 @@ const getBlogs = (req,res) => {
     })
 }
 
+
+const getBlogById = (req,res) => {
+    const id = req.params.id;
+    Blog.findById(id)
+    .then(result => {
+        res.send(result);
+    })
+    .catch((err) => {
+        res.send(err);
+    })
+}
+
 const addBlog = (req,res) => {
     Blog.create(req.body)
         .then((result) => {
@@ -46,6 +58,7 @@ const deleteBlog = (req,res) => {
 
 module.exports = {
     getBlogs,
+    getBlogById,
     addBlog,
     updateBlog,
     deleteBlog
