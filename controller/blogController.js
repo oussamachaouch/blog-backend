@@ -6,7 +6,7 @@ const getBlogs = (req,res) => {
         res.send(result);
     })
     .catch((err) => {
-        res.send(err);
+        res.status(404).send("Blogs not found");
     })
 }
 
@@ -19,6 +19,7 @@ const getBlogById = (req,res) => {
     })
     .catch((err) => {
         res.send(err);
+        res.status(404).send("Blog not found");
     })
 }
 
@@ -29,6 +30,7 @@ const addBlog = (req,res) => {
         })
         .catch((err) => {
             console.log(err);
+            res.status(400).send("Error creating blog");
         })
 }
 
@@ -40,6 +42,7 @@ const updateBlog = async (req,res) => {
        return res.json(result);
     } catch (error) {
         console.log(error);
+        res.status(400).send("Error updating blog");
     }
    
 
@@ -53,6 +56,7 @@ const deleteBlog = (req,res) => {
     })
     .catch((err) => {
         console.log(err);
+        res.status(400).send("Error deleting blog");
     })
 }
 

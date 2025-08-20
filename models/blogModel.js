@@ -1,6 +1,17 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const Sections = new Schema({
+    title: {
+        type: String,
+        required: true
+    },
+    body: {
+        type: String,
+        required: true
+    }
+});
+
 const blogSchema = new Schema({
     title: {
         type: String,
@@ -10,8 +21,16 @@ const blogSchema = new Schema({
         type: String,
         required: true
     },
-    body: {
-        type:String,
+    defaultImage: {
+        type: String,
+        required: true
+    },
+    blogImage: {
+        type: String,
+        required: true
+    },
+    sections: {
+        type: [Sections],
         required: true
     },
 },{timestamps: true });
