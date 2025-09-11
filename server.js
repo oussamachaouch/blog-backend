@@ -25,8 +25,12 @@ app.use(cors(corsOptions)) // Use this after the variable declaration
 
 const PORT = process.env.PORT || 3000;
 const blogRoute = require('./routes/blog');
+const subscriberRoute = require('./routes/subscriber');
+const newsRouter = require('./routes/news');
 
 app.use('/blogs',blogRoute);
+app.use('/newsletter',subscriberRoute);
+app.use("/news", newsRouter);
 
 // connect to mongo
 connexion();
