@@ -6,13 +6,18 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
-    const [apiNews, rssNews] = await Promise.all([
-      fetchNewsApi(),
-      fetchRssFeeds()
-    ]);
+    // const [apiNews, rssNews] = await Promise.all([
+    //   fetchNewsApi(),
+    //   fetchRssFeeds()
+    // ]);
+    const apiNews = await fetchNewsApi();
 
     // Merge & sort by date
-    const allNews = [...apiNews, ...rssNews].sort(
+    // const allNews = [...apiNews, ...rssNews].sort(
+    //   (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
+    // );
+
+    const allNews = apiNews.sort(
       (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
     );
 

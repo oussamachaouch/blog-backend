@@ -16,6 +16,7 @@ export async function fetchRssFeeds() {
           source: feed.title,
           title: item.title,
           url: item.link,
+          image:"https://about.fb.com/wp-content/uploads/2023/09/GettyImages-686732223.jpg",
           publishedAt: item.pubDate,
           description: item.contentSnippet || "",
         }))
