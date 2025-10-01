@@ -1,0 +1,55 @@
+{
+  "About": {
+    "title": "About BLOGTECH",
+    "content1": "Welcome to BLOGTECH — your go-to platform for everything Tech. Whether you're a seasoned developer, an aspiring tech enthusiast, or someone simply curious about the latest in technology, BLOGTECH brings you insightful articles, in-depth tutorials, and the latest updates from the world of software, hardware, AI, and beyond.",
+    "content2": "Our mission is to build a vibrant community where ideas are shared, knowledge is spread, and innovation is celebrated. At BLOGTECH, we believe that technology should be accessible, inspiring, and ever-evolving — just like our content.",
+    "content3": "Stay curious. Stay updated. Stay ahead — with BLOGTECH."
+  },
+  "Blog": {
+    "title": "Latest Blogs",
+    "deleteConfirm": "Are you sure you want to delete this blog?",
+    "page": "Page",
+    "of": "of"
+  },
+  "NewBlog": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "SelectOption1": "Spread the blog to subscribers",
+    "SelectOption2": "Do not spread the blog to subscribers",
+    "NewsletterOption":"Newsletter option",
+    "blogDefaultImage":"Copy paste default image link",
+    "blogImage":"Copy paste blog image link",
+    "title":"Show Us Your Knowledge",
+    "titleError1":"title cannot be blank!",
+    "titleError2":"title is too long!",
+    "defaultImageError":"default image src cannot be empty!",
+    "blogImageError":"blog image src cannot be empty!",
+    "otherError":"You must have at least one section!",
+    "sectionTitleError1":"title cannot be empty!",
+    "sectionTitleError2":"title is too long!",
+    "sectionBodyError1":"section body cannot be blank!",
+    "sectionBodyError2":"section body is too long!"
+  },
+  "News": {
+    "news": "News"
+  },
+  "Newsletter": {
+    "emailEmpty": "email cannot be empty!",
+    "emailInvalid": "email is invalid!",
+    "emailExist": "Email already exists!",
+    "title": "Subscribe to our Newsletter",
+    "enterYourEmail": "Enter your email",
+    "submit": "Submit"
+  },
+  "ShowBlog": {
+    "nothingFound":"nothing found"
+  },
+  "Unsubscribed": {
+    "title": "You have been unsubscribed",
+    "content": "We're sorry to see you go. You have successfully unsubscribed from our mailing list."
+  },
+  "Common" : {
+    "loading": "Loading...",
+    "notFound": "Not found component"
+  }
+}

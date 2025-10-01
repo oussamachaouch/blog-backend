@@ -27,10 +27,13 @@ const PORT = process.env.PORT || 3000;
 const blogRoute = require('./routes/blog');
 const subscriberRoute = require('./routes/subscriber');
 const newsRouter = require('./routes/news');
+const translationRouter = require('./routes/translation');
+
 
 app.use('/blogs',blogRoute);
 app.use('/newsletter',subscriberRoute);
 app.use("/news", newsRouter);
+app.use("/translate", translationRouter);
 
 // connect to mongo
 connexion();

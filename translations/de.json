@@ -1,0 +1,55 @@
+{
+  "About": {
+    "title": "Über BLOGTECH",
+    "content1": "Willkommen bei BLOGTECH – Ihrer Go-to-Plattform für alles Tech. Ob erfahrener Entwickler, aufstrebender Tech-Enthusiast oder einfach nur neugierig auf die neuesten Technologien, BLOGTECH bringt Ihnen aufschlussreiche Artikel, ausführliche Tutorials und neueste Updates aus der Welt der Software, Hardware, KI und darüber hinaus.",
+    "content2": "Unsere Mission ist es, eine lebendige Gemeinschaft aufzubauen, in der Ideen geteilt, Wissen verbreitet und Innovation gefeiert wird. Bei BLOGTECH glauben wir, dass Technologie zugänglich, inspirierend und sich ständig entwickeln sollte – genau wie unsere Inhalte.",
+    "content3": "Bleiben Sie neugierig. Bleiben Sie auf dem Laufenden. Bleiben Sie voraus — mit BLOGTECH."
+  },
+  "Blog": {
+    "title": "Neueste Blogs",
+    "deleteConfirm": "Sind Sie sicher, dass Sie diesen Blog löschen möchten?",
+    "page": "Seite",
+    "of": "von"
+  },
+  "NewBlog": {
+    "submit": "Senden",
+    "cancel": "Abbrechen",
+    "SelectOption1": "Verbreiten Sie den Blog an Abonnenten",
+    "SelectOption2": "Verbreiten Sie den Blog nicht an Abonnenten",
+    "NewsletterOption": "Newsletter-Option",
+    "blogDefaultImage": "Standardbild-Link kopieren",
+    "blogImage": "Blog-Bild-Link kopieren",
+    "title": "Zeigen Sie uns Ihr Wissen",
+    "titleError1": "Titel kann nicht leer sein!",
+    "titleError2": "Titel ist zu lang!",
+    "defaultImageError": "default image src kann nicht leer sein!",
+    "blogImageError": "blog image src kann nicht leer sein!",
+    "otherError": "Sie müssen mindestens einen Abschnitt haben!",
+    "sectionTitleError1": "Titel kann nicht leer sein!",
+    "sectionTitleError2": "Titel ist zu lang!",
+    "sectionBodyError1": "Sektionskörper kann nicht leer sein!",
+    "sectionBodyError2": "Die Sektionskörper sind zu lang!"
+  },
+  "News": {
+    "news": "Nachrichten"
+  },
+  "Newsletter": {
+    "emailEmpty": "E-Mail kann nicht leer sein!",
+    "emailInvalid": "E-Mail ist ungültig!",
+    "emailExist": "E-Mail existiert bereits!",
+    "title": "Abonnieren Sie unseren Newsletter",
+    "enterYourEmail": "Geben Sie Ihre E-Mail ein",
+    "submit": "Senden"
+  },
+  "ShowBlog": {
+    "nothingFound": "nichts gefunden"
+  },
+  "Unsubscribed": {
+    "title": "Sie wurden abgemeldet",
+    "content": "Es tut uns leid, dass Sie weg sind, Sie haben sich erfolgreich von unserer Mailingliste abgemeldet."
+  },
+  "Common": {
+    "loading": "Laden...",
+    "notFound": "Nicht gefundene Komponente"
+  }
+}

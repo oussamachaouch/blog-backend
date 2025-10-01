@@ -1,0 +1,55 @@
+{
+  "About": {
+    "title": "Informazioni su BLOGTECH",
+    "content1": "Benvenuti a BLOGTECH La vostra piattaforma per tutto Tech. Sia che siate uno sviluppatore esperto, un aspirante appassionato di tecnologia, o qualcuno semplicemente curioso circa le ultime tecnologie, BLOGTECH vi porta articoli perspicaci, tutorial approfonditi, e gli ultimi aggiornamenti dal mondo del software, hardware, AI, e oltre.",
+    "content2": "La nostra missione è quella di costruire una comunità vibrante in cui le idee siano condivise, la conoscenza sia diffusa e l'innovazione sia celebrata. A BLOGTECH, crediamo che la tecnologia dovrebbe essere accessibile, stimolante e in continua evoluzione Hoppenstedt proprio come il nostro contenuto.",
+    "content3": "Restate curiosi. Restate aggiornati. Restate avanti con BLOGTECH."
+  },
+  "Blog": {
+    "title": "Ultimi Blog",
+    "deleteConfirm": "Eliminare veramente questo blog?",
+    "page": "Pagina",
+    "of": "di"
+  },
+  "NewBlog": {
+    "submit": "Invia",
+    "cancel": "Annulla",
+    "SelectOption1": "Diffondere il blog agli abbonati",
+    "SelectOption2": "Non diffondere il blog agli abbonati",
+    "NewsletterOption": "Opzione Newsletter",
+    "blogDefaultImage": "Copia collegamento immagine predefinito incolla",
+    "blogImage": "Copia collegamento immagine del blog di incolla",
+    "title": "Mostraci la tua conoscenza",
+    "titleError1": "il titolo non può essere vuoto!",
+    "titleError2": "Il titolo è troppo lungo!",
+    "defaultImageError": "src immagine predefinita non può essere vuoto!",
+    "blogImageError": "Il blog image src non può essere vuoto!",
+    "otherError": "Devi avere almeno una sezione!",
+    "sectionTitleError1": "il titolo non può essere vuoto!",
+    "sectionTitleError2": "Il titolo è troppo lungo!",
+    "sectionBodyError1": "Il corpo della sezione non puo' essere vuoto!",
+    "sectionBodyError2": "Il corpo della sezione è troppo lungo!"
+  },
+  "News": {
+    "news": "Notizie"
+  },
+  "Newsletter": {
+    "emailEmpty": "email non può essere vuota!",
+    "emailInvalid": "l'email non è valida!",
+    "emailExist": "Email esiste già!",
+    "title": "Iscriviti alla nostra Newsletter",
+    "enterYourEmail": "Inserisci la tua email",
+    "submit": "Invia"
+  },
+  "ShowBlog": {
+    "nothingFound": "niente trovato"
+  },
+  "Unsubscribed": {
+    "title": "Sei stato cancellato.",
+    "content": "Siamo spiacenti di vederti andare. Hai cancellato con successo la nostra mailing list."
+  },
+  "Common": {
+    "loading": "Caricamento in corso...",
+    "notFound": "Componente non trovato"
+  }
+}

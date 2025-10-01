@@ -1,0 +1,55 @@
+{
+  "About": {
+    "title": "À propos de BLOGTECH",
+    "content1": "Bienvenue à BLOGTECH — votre plateforme d'entrée pour tout Tech. Que vous soyez un développeur chevronné, un passionné de technologie aspirante, ou quelqu'un simplement curieux de la dernière technologie, BLOGTECH vous apporte des articles perspicaces, des tutoriels en profondeur, et les dernières mises à jour du monde des logiciels, du matériel, de l'IA, et au-delà.",
+    "content2": "Notre mission est de construire une communauté dynamique où les idées sont partagées, le savoir se répand et l'innovation est célébrée. Chez BLOGTECH, nous croyons que la technologie doit être accessible, inspirante et en constante évolution, tout comme notre contenu.",
+    "content3": "Restez curieux. Restez à jour. Restez en avance — avec BLOGTECH."
+  },
+  "Blog": {
+    "title": "Les derniers blogs",
+    "deleteConfirm": "Voulez-vous vraiment supprimer ce blog ?",
+    "page": "Table des matières",
+    "of": "des"
+  },
+  "NewBlog": {
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "SelectOption1": "Diffuser le blog aux abonnés",
+    "SelectOption2": "Ne pas diffuser le blog aux abonnés",
+    "NewsletterOption": "Option Newsletter",
+    "blogDefaultImage": "Copier le lien d'image par défaut",
+    "blogImage": "Copier le lien de l'image du blog coller",
+    "title": "Montrez-nous vos connaissances",
+    "titleError1": "le titre ne peut pas être vide!",
+    "titleError2": "le titre est trop long !",
+    "defaultImageError": "par défaut image src ne peut pas être vide!",
+    "blogImageError": "blog image src ne peut pas être vide!",
+    "otherError": "Vous devez avoir au moins une section !",
+    "sectionTitleError1": "titre ne peut pas être vide!",
+    "sectionTitleError2": "le titre est trop long !",
+    "sectionBodyError1": "corps de section ne peut pas être vide!",
+    "sectionBodyError2": "le corps de la section est trop long!"
+  },
+  "News": {
+    "news": "Nouvelles"
+  },
+  "Newsletter": {
+    "emailEmpty": "e-mail ne peut pas être vide!",
+    "emailInvalid": "e-mail est invalide!",
+    "emailExist": "L'email existe déjà !",
+    "title": "Abonnez-vous à notre Newsletter",
+    "enterYourEmail": "Entrez votre email",
+    "submit": "Soumettre"
+  },
+  "ShowBlog": {
+    "nothingFound": "Rien trouvé"
+  },
+  "Unsubscribed": {
+    "title": "Vous avez été désabonné",
+    "content": "Nous sommes désolés de vous voir partir. Vous avez réussi à vous désabonner de notre liste de diffusion."
+  },
+  "Common": {
+    "loading": "Chargement...",
+    "notFound": "Composante non trouvée"
+  }
+}

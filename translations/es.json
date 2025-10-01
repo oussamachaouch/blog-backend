@@ -1,0 +1,55 @@
+{
+  "About": {
+    "title": "Acerca de BLOGTECH",
+    "content1": "Bienvenido a BLOGTECH, tu plataforma de acceso para todo Tech. Ya seas un experimentado desarrollador, un aspirante entusiasta de la tecnología o alguien simplemente curioso por lo último en tecnología, BLOGTECH te trae artículos perspicaces, tutoriales en profundidad y las últimas actualizaciones del mundo del software, hardware, IA y más allá.",
+    "content2": "Nuestra misión es construir una comunidad vibrante donde se compartan las ideas, se difunda el conocimiento y se celebre la innovación. En BLOGTECH creemos que la tecnología debe ser accesible, inspiradora y en constante evolución, al igual que nuestro contenido.",
+    "content3": "Mantenga la curiosidad. Manténgase al día. Manténgase al día — con BLOGTECH."
+  },
+  "Blog": {
+    "title": "Últimos blogs",
+    "deleteConfirm": "¿Estás seguro de que quieres borrar este blog?",
+    "page": "Página",
+    "of": "de"
+  },
+  "NewBlog": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "SelectOption1": "Difundir el blog a los suscriptores",
+    "SelectOption2": "No difundir el blog a los suscriptores",
+    "NewsletterOption": "Opción del boletín de noticias",
+    "blogDefaultImage": "Copiar el enlace de imagen predeterminado de pega",
+    "blogImage": "Copiar el enlace de imagen de blog de pega",
+    "title": "Muéstrenos su conocimiento",
+    "titleError1": "¡El título no puede estar en blanco!",
+    "titleError2": "¡El título es demasiado largo!",
+    "defaultImageError": "¡La imagen predeterminada src no puede estar vacía!",
+    "blogImageError": "blog image src no puede estar vacío!",
+    "otherError": "¡Debes tener al menos una sección!",
+    "sectionTitleError1": "¡El título no puede estar vacío!",
+    "sectionTitleError2": "¡El título es demasiado largo!",
+    "sectionBodyError1": "¡El cuerpo de la sección no puede estar en blanco!",
+    "sectionBodyError2": "¡El cuerpo de la sección es demasiado largo!"
+  },
+  "News": {
+    "news": "Noticias"
+  },
+  "Newsletter": {
+    "emailEmpty": "¡El correo electrónico no puede estar vacío!",
+    "emailInvalid": "¡El correo electrónico no es válido!",
+    "emailExist": "¡El correo electrónico ya existe!",
+    "title": "Suscríbete a nuestra Newsletter",
+    "enterYourEmail": "Introduzca su correo electrónico",
+    "submit": "Enviar"
+  },
+  "ShowBlog": {
+    "nothingFound": "No se encontró nada"
+  },
+  "Unsubscribed": {
+    "title": "Usted ha sido dado de baja",
+    "content": "Sentimos que se vaya. Ha dado de baja con éxito de nuestra lista de correo."
+  },
+  "Common": {
+    "loading": "Cargando...",
+    "notFound": "Componente no encontrado"
+  }
+}
