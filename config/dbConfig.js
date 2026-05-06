@@ -1,19 +1,13 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
-const connectDB = () => {
-    try {
-        mongoose.connect(process.env.DB_URL
-        // ,{
-        //     useNewUrlParser: true,
-        //     useCreateIndex: true,
-        //     useUnifiedTopology: true  
-        // }
-    );
-        console.log('database connected');
-    } catch (error) {
-        console.log(error);
-        process.exit(1);
-    }
-}
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.DB_URL);
+    console.log('database connected');
+  } catch (error) {
+    console.log(error);
+    process.exit(1);
+  }
+};
 
-module.exports = connectDB;
+export default connectDB;

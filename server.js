@@ -1,44 +1,39 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const morgan = require('morgan');
-const connexion = require('./config/dbConfig');
+import './config/loadEnv.js';
+import express from 'express';
+import morgan from 'morgan';
+import cors from 'cors';
+import connexion from './config/dbConfig.js';
+import blogRoute from './routes/blog.js';
+import subscriberRoute from './routes/subscriber.js';
+import newsRouter from './routes/news.js';
+import translationRouter from './routes/translation.js';
 
 const app = express();
 
 // middleware
-dotenv.config({ path : './config/config.env'});
-if(process.env.NODE_ENV === 'development') {
-    app.use(morgan('tiny'));
-  }
-app.use(express.json())
-//***************** CORS *************************** //
-const cors=require("cors");
-const corsOptions ={
-   origin:'*', 
-   credentials:true,            //access-control-allow-credentials:true
-   optionSuccessStatus:200,
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('tiny'));
 }
+app.use(express.json());
 
-app.use(cors(corsOptions)) // Use this after the variable declaration
+const corsOptions = {
+  origin: '*',
+  credentials: true,
+  optionSuccessStatus: 200,
+};
 
-//**************************************************//
+app.use(cors(corsOptions));
 
 const PORT = process.env.PORT || 3000;
-const blogRoute = require('./routes/blog');
-const subscriberRoute = require('./routes/subscriber');
-const newsRouter = require('./routes/news');
-const translationRouter = require('./routes/translation');
-
-
-app.use('/blogs',blogRoute);
-app.use('/newsletter',subscriberRoute);
-app.use("/news", newsRouter);
-app.use("/translate", translationRouter);
+app.use('/blogs', blogRoute);
+app.use('/newsletter', subscriberRoute);
+app.use('/news', newsRouter);
+app.use('/translate', translationRouter);
 
 // connect to mongo
 connexion();
 
 // start server
-app.listen(PORT,()=>{
-    console.log(`server lestening on port ${PORT} `);
+app.listen(PORT, () => {
+  console.log(`server listening on port ${PORT}`);
 });
